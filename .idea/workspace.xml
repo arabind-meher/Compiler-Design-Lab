@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d43720a3-2e92-443c-825e-dff321c5072c" name="Default Changelist" comment="" />
+    <list default="true" id="d43720a3-2e92-443c-825e-dff321c5072c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W4PEGYn9I3xo9p4QRbbVjBle9v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../minor-project" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,10 +54,18 @@
       <option name="presentableId" value="Default" />
       <updated>1578405780776</updated>
       <workItem from="1578405782997" duration="125000" />
+      <workItem from="1578415368027" duration="792000" />
+      <workItem from="1578478405118" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="277" width="424" height="479" key="FileChooserDialogImpl" timestamp="1578417084243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="277" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578417084243" />
   </component>
 </project>
