@@ -1,4 +1,5 @@
 # Compiler Design Lab
 
-## Text Editor
-It can write, append, read & delete a 'txt' file
+## 1. Text Editor
+## 2. Regular Expression to NFA
+## 3. NFA to DFA
