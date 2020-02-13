@@ -1,11 +1,11 @@
 if __name__ == '__main__':
-    s = input('Enter Non-Terminals who have left recursion : ')
+    s = input('Enter Non-Terminals who have left recursion: ')
     n = len(s)
     d = {}
     l = []
 
     for i in s:
-        a = input('\nEnter the production for {0} :'.format(i))
+        a = input('\nEnter the production for {0}: '.format(i))
         d[i] = a
 
     print('\nBefore Left Recursion: ')
