@@ -22,30 +22,42 @@ if __name__ == '__main__':
         l = a.split()
         n = len(l)
         t = ''
-        m = 0
+        m = 100
 
         for j in l:
             if m > len(j):
                 m = len(j)
+                t = j
 
-        for j in range(m):
-            if l[0][j] == l[1][j]:
-                t = t + l[0][j]
-            else:
+        while True:
+            f = 1
+            for j in l:
+                if t not in j:
+                    f = 0
+                    break
+            if f == 1:
                 break
+            else:
+                m = m - 1
+                if m == 0:
+                    t = ''
+                    break
+                t = t[0:m]
+        k = len(t)
 
         p = i + ' -> ' + t + i + "'"
-        p(p)
+        print(p)
 
-        if len(l[0][j:]) == 0:
-            l0 = u'\u03B5'
-        else:
-            l0 = l[0][j:]
+        p = i + "' -> "
+        p0 = []
 
-        if len(l[1][j:]) == 0:
-            l1 = u'\u03B5'
-        else:
-            l1 = l[1][j:]
+        for j in l:
+            if len(j[k:]) == 0:
+                l0 = u'\u03B5'
+            else:
+                l0 = j[k:]
 
-        p = i + ' -> ' + l0 + ' | ' + l1
+            p0.append(l0)
+
+        p = p + ' | '.join(p0)
         print(p)
